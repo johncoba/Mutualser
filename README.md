@@ -30,4 +30,5 @@ La siguiente imagen representa un ejemplo de lo que se ha descrito hasta ahora:
 
 En el ejemplo, hay un total de $9900 pesos, repartidos entre 21 monedas. el usuario en el ejemplo selecciono consultar cuantas monedas de $1000 hay dentro de la alcancía, por lo cual el mensaje indica que hay 7 monedas de $1000, para un total de $7000 pesos.
 
+Por último, al presionar sobre la alcancía, se envía un mensaje si se desea romper la alcancía, al igual que se hace en la realidad, esto desocuparía la alcancía para iniciar el nuevo ahorro.
 ---------------------------------------------------------
