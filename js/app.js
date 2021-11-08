@@ -1,3 +1,5 @@
+//Autor: John Coba
+
 totalizar("Ahorrado: ");
 
 function coinClick(nominacion, coin) { 
