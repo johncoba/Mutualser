@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--Autor: John Coba-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcancia</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo"></h1>
+        <button id="boton" class="btn btn-danger" onclick='alcanciaClick()'><img src="images/Alcancia.png" width="150px"/></button>
+        <button id="boton50" class="btn btn-danger" onclick='coinClick("Coin50",50)'><img src="images/Coin50.png" width="50px"/></button>
+        <button id="boton100" class="btn btn-danger" onclick='coinClick("Coin100", 100)'><img src="images/Coin100.png" width="50px"/></button>
+        <button id="boton200" class="btn btn-danger" onclick='coinClick("Coin200", 200)'><img src="images/Coin200.png" width="50px"/></button>
+        <button id="boton500" class="btn btn-danger" onclick='coinClick("Coin500", 500)'><img src="images/Coin500.png" width="50px"/></button>
+        <button id="boton1000" class="btn btn-danger" onclick='coinClick("Coin1000", 1000)'><img src="images/Coin1000.png" width="50px"/></button>        
+        <h1 id="CantidadMonedas"></h1>
+        <br/>
+        <h1>Cuantas monedas y dinero tengo de:</h1>
+        <button id="botonCts50" class="btn btn-danger" onclick='ctsClick("Coin50", 50)'><img src="images/Coin50.png" width="50px"/></button>
+        <button id="botonCts100" class="btn btn-danger" onclick='ctsClick("Coin100", 100)'><img src="images/Coin100.png" width="50px"/></button>
+        <button id="botonCts200" class="btn btn-danger" onclick='ctsClick("Coin200", 200)'><img src="images/Coin200.png" width="50px"/></button>
+        <button id="botonCts500" class="btn btn-danger" onclick='ctsClick("Coin500", 500)'><img src="images/Coin500.png" width="50px"/></button>
+        <button id="botonCts1000" class="btn btn-danger" onclick='ctsClick("Coin1000", 1000)'><img src="images/Coin1000.png" width="50px"/></button>        
+        <br/>
+        <h1 id="CantidadMonedasSel"></h1>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
